@@ -19,6 +19,7 @@ Learning software development through structured, progressively harder projects 
 - **Pong** — Two-player paddle game with wall/paddle collision, scoring, and a win condition.
 - **DodgeFallingObjects** — `std::vector` of falling obstacles with spawn timing and collision-based game over.
 - **Snake** — Grid-based movement using a `std::deque`, self-collision detection, food spawning, and a checkerboard-rendered board.
+- **MazeGame (v1)** — Grid-based maze loaded from a text file, with per-axis AABB wall collision (std::any_of over a vector of sf::FloatRect), delta-time movement, and a goal tile win condition.
 
 ## Python Projects
 
